@@ -30,9 +30,13 @@
         <url-pattern>/reset</url-pattern>
     </servlet-mapping>
 
-
-
-
-
+    <servlet>
+        <servlet-name>detailServlet</servlet-name>
+        <servlet-class>servlet.DetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>detailServlet</servlet-name>
+        <url-pattern>/detail</url-pattern>
+    </servlet-mapping>
 
 </web-app>

@@ -1,13 +1,12 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2019/10/5
-  Time: 20:13
+  User: lvjun
+  Date: 2018-03-22
+  Time: 11:15
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 
@@ -19,10 +18,10 @@
 <form name="form1" action="main" method="post">
     <table border="1">
         <tr>
-            <td>欢迎：${uname}</td>
-            <td>最新：${total}</td>
+            <td> 欢迎：${uname }</td>
+            <td>最新：${total}篇 </td>
             <td colspan="6"><a href="/insert">发布新闻</a></td>
-            <td><a href="index.jsp">安全退出</a></td>
+            <td><a href="/index.jsp">安全退出</a></td>
         </tr>
 
         <tr>
@@ -34,47 +33,37 @@
             <th>状态</th>
             <th colspan="3">操作</th>
         </tr>
-
-
-        <c:forEach items="${list}" var="list" varStatus="st">
+        <c:forEach items="${list }" var="list" varStatus="st">
             <tr>
-                <td>${list.id}</td>
-                <td>${list.title}</td>
-                <td>${list.author}</td>
-                <td>${list.ctime}</td>
+                <td>${list.id }</td>
+                <td>${list.title }</td>
+                <td>${list.author }</td>
+                <td>${list.ctime }</td>
                 <td>
-                    <c:if test="${list.type=='0'}">未分类</c:if>
-                    <c:if test="${list.type=='1'}">原创</c:if>
-                    <c:if test="${list.type=='2'}">转载</c:if>
+                    <c:if test="${list.type =='0' }">未分类</c:if>
+                    <c:if test="${list.type =='1' }">原创</c:if>
+                    <c:if test="${list.type =='2' }">转载</c:if>
                 </td>
                 <td>
-                    <c:if test="${list.stat=='0'}">正常</c:if>
-                    <c:if test="${list.stat=='1'}">注销</c:if>
+                    <c:if test="${list.stat == '0' }">正常</c:if>
+                    <c:if test="${list.stat == '1' }">已注销</c:if>
                 </td>
-                <td>
-                    <a href="/detail?id={list.id}">详细</a>
-                </td>
-                <td>
-                    <a href="/update?id=${list.id}">修改</a>
-                </td>
-                <td>
-                    <a href="/delete?id=${list.id}">删除</a>
-                </td>
+                <td><a href="/detail?id=${list.id }">详情</a></td>
+                <td><a href="/update?id=${list.id }">修改</a></td>
+                <td><a href="/delete?id=${list.id }">删除</a></td>
             </tr>
         </c:forEach>
 
-
         <tr>
             <td colspan="9" align="center">
-                <a href="/page?start=0">[首 页]</a>
-                <a href="/page?start=${pre}">[上一页]</a>
-                <a href="/page?start=${next}">[下一页]</a>
-                <a href="/page?start=${last}">[末 页]</a>
+                <a href="/page?start=0">[首  页]</a>  |
+                <a href="/page?start=${pre}">[上一页]</a>   |
+                <a href="/page?start=${next}">[下一页]</a>   |
+                <a href="/page?start=${last}">[末  页]</a>
             </td>
         </tr>
+
     </table>
-
 </form>
-
 </body>
 </html>

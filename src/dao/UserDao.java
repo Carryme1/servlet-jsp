@@ -6,6 +6,8 @@ import utils.Dbmanage;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserDao {
 
@@ -19,7 +21,7 @@ public class UserDao {
         try {
             connection = dbmanage.initDB();
             statement = connection.createStatement();
-            String sql = "SELECT uname ,upwd FROM  users WHERE uname= '" + name + "'  AND upwd= '" + password + " '";
+            String sql = "SELECT uname ,upwd FROM  users WHERE uname= '" + name + "'  AND upwd= '" + password + "'";
             System.out.println("登陆mysql:"+sql);
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()){
@@ -72,5 +74,8 @@ public class UserDao {
             dbmanage.closeDB(statement,connection);
         }
     }
+
+
+
 
 }
