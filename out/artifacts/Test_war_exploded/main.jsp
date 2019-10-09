@@ -16,7 +16,7 @@
 </head>
 <body>
 <form name="form1" action="main" method="post">
-    <table border="1">
+    <table border="1" align="center">
         <tr>
             <td> 欢迎：${uname }</td>
             <td>最新：${total}篇 </td>
@@ -48,9 +48,9 @@
                     <c:if test="${list.stat == '0' }">正常</c:if>
                     <c:if test="${list.stat == '1' }">已注销</c:if>
                 </td>
-                <td><a href="/detail?id=${list.id }">详情</a></td>
-                <td><a href="/update?id=${list.id }">修改</a></td>
-                <td><a href="/delete?id=${list.id }">删除</a></td>
+                <td><a href="detail?id=${list.id }">详情</a></td>
+                <td><a href="update?id=${list.id }">修改</a></td>
+                <td><a href="delete?id=${list.id }">删除</a></td>
             </tr>
         </c:forEach>
 
