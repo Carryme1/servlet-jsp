@@ -29,6 +29,15 @@
         <servlet-name>resetServlet</servlet-name>
         <url-pattern>/reset</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>returnServlet</servlet-name>
+        <servlet-class>servlet.ReturnServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>returnServlet</servlet-name>
+        <url-pattern>/return</url-pattern>
+    </servlet-mapping>
 
 
 
