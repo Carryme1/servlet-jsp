@@ -31,6 +31,12 @@
             <td>时间</td>
             <td><input type="text" name="ctime"></td>
         </tr>
+
+        <tr>
+            <td>内容</td>
+            <td><input type="text" name="content"></td>
+        </tr>
+
         <tr>
             <td>类型</td>
             <td><input type="text" name="type"></td>

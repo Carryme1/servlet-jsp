@@ -8,13 +8,50 @@
   <component name="ChangeListManager">
     <list default="true" id="7b7ec36d-9539-4cc3-bb48-1c374e7313ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/dao/BbsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/dao/BbsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/DeleteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/InsertServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/InsertServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/PageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/PageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/classes/servlet/UpdateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/BbsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/BbsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/InsertServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/InsertServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/PageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/PageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/ReturnServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/ReturnServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/UpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/UpdateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/dao/BbsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/dao/BbsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/servlet/InsertServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/servlet/InsertServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/servlet/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/production/Test/servlet/UpdateServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,6 +77,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -50,11 +88,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\Test\web\WEB-INF\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\Test\web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Test\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,7 +195,12 @@
       <workItem from="1570257242360" duration="20793000" />
       <workItem from="1570352043617" duration="13486000" />
       <workItem from="1570373925611" duration="504000" />
-      <workItem from="1570632890460" duration="4662000" />
+      <workItem from="1570632890460" duration="8838000" />
+      <workItem from="1570803608938" duration="1262000" />
+      <workItem from="1571155247803" duration="1837000" />
+      <workItem from="1571757070857" duration="147000" />
+      <workItem from="1571759374126" duration="3262000" />
+      <workItem from="1572163867272" duration="4244000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m &quot;修复操作无法跳转，增加Delete&quot;">
       <created>1570635704110</created>

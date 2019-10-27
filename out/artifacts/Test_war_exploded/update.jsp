@@ -14,24 +14,25 @@
 <form action="update" method="post">
     <table align="center">
         <tr>
-            <td>标题</td>
-            <td><input type="text" name="title"></td>
+            <td>编号<input type="hidden" name="id" value="${detail.id}"></td>
         </tr>
         <tr>
-            <td>作者</td>
-            <td><input type="text" name="author"></td>
+            <td>标题<input type="text" name="title" value="${detail.title}"></td>
         </tr>
         <tr>
-            <td>时间</td>
-            <td><input type="text" name="ctime"></td>
+            <td>作者<input type="text" name="author" value="${detail.author}"></td>
         </tr>
         <tr>
-            <td>类型</td>
-            <td><input type="text" name="type"></td>
+            <td>内容<input type="text" name="content" value="${detail.content}"></td>
         </tr>
         <tr>
-            <td>状态</td>
-            <td><input type="text" name="stas"></td>
+            <td>时间<input type="text" name="ctime" value="${detail.ctime}"></td>
+        </tr>
+        <tr>
+            <td>类型<input type="text" name="type" value="${detail.type}"></td>
+        </tr>
+        <tr>
+            <td>状态<input type="text" name="stas" value="${detail.stat}"></td>
         </tr>
 
         <tr>

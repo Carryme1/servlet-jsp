@@ -24,7 +24,7 @@ public class DeleteServlet extends HttpServlet {
         bbsDao.getDelete(id);
         List<Bbs> list = bbsDao.getPageList(0,10);
         req.getSession().setAttribute("list",list);
-        req.getSession().setAttribute("total",list.size());
+        req.getSession().setAttribute("total",bbsDao.getTotal());
         req.getRequestDispatcher("/main.jsp").forward(req,resp);
     }
 }

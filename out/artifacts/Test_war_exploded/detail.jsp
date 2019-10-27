@@ -17,7 +17,7 @@
         <td colspan="3">${detail.content}</td>
     </tr>
     <tr>
-        <td colspan="3" align="center"><a href="/return">返回首页</a></td>
+        <td colspan="3" align="center"><a href="return">返回首页</a></td>
     </tr>
 </table>
 </body>

@@ -15,6 +15,10 @@ import java.io.IOException;
 public class UpdateServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("utf8");
+        int id = Integer.parseInt(req.getParameter("id"));
+        BbsDao bbsDao = new BbsDao();
+        req.getSession().setAttribute("detail",bbsDao.getDetail(id));
         req.getRequestDispatcher("/update.jsp").forward(req,resp);
     }
 
@@ -41,6 +45,6 @@ public class UpdateServlet extends HttpServlet {
         bbsDao.updateBbs(bbs);
 
         req.getSession().setAttribute("detail",bbsDao.getDetail(id));
-        req.getRequestDispatcher("/main.jsp").forward(req,resp);
+        req.getRequestDispatcher("/detail.jsp").forward(req,resp);
     }
 }

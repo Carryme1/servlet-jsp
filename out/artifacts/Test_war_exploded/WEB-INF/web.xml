@@ -56,5 +56,33 @@
         <servlet-name>deleteServlet</servlet-name>
         <url-pattern>/delete</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>insertServlet</servlet-name>
+        <servlet-class>servlet.InsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>insertServlet</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>pageServlet</servlet-name>
+        <servlet-class>servlet.PageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pageServlet</servlet-name>
+        <url-pattern>/page</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>returnServlet</servlet-name>
+        <servlet-class>servlet.ReturnServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>returnServlet</servlet-name>
+        <url-pattern>/return</url-pattern>
+    </servlet-mapping>
+    
 
 </web-app>

@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
             int end = 10;
             BbsDao bbsDao = new BbsDao();
             List<Bbs> list = bbsDao.getPageList(start,end);
-            int total = list.size();
+            int total = bbsDao.getTotal();
             req.getSession().setAttribute("list",list);
             req.getSession().setAttribute("uname",name);
             req.getSession().setAttribute("total",total);

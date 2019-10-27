@@ -20,8 +20,8 @@
         <tr>
             <td> 欢迎：${uname }</td>
             <td>最新：${total}篇 </td>
-            <td colspan="6"><a href="/insert">发布新闻</a></td>
-            <td><a href="/index.jsp">安全退出</a></td>
+            <td colspan="6"><a href="insert">发布新闻</a></td>
+            <td><a href="index">安全退出</a></td>
         </tr>
 
         <tr>
@@ -56,10 +56,10 @@
 
         <tr>
             <td colspan="9" align="center">
-                <a href="/page?start=0">[首  页]</a>  |
-                <a href="/page?start=${pre}">[上一页]</a>   |
-                <a href="/page?start=${next}">[下一页]</a>   |
-                <a href="/page?start=${last}">[末  页]</a>
+                <a href="page?start=0">[首  页]</a>  |
+                <a href="page?start=${pre}">[上一页]</a>   |
+                <a href="page?start=${next}">[下一页]</a>   |
+                <a href="page?start=${last}">[末  页]</a>
             </td>
         </tr>
 
